@@ -31,6 +31,6 @@ const mapStateToProps = ({gallery: { photos } }) => ({
 
 const mapDispatchToProps = {
    addImage: addImageAction,
-};
+}; 
 
 export default connect(mapStateToProps, mapDispatchToProps)(Gallery);
